@@ -15,8 +15,8 @@ const NavBar = () => {
   ];
 
   return (
-    <nav className="bg-white border-t border-gray-200">
-      <ul className="flex justify-around items-center py-2">
+    <nav className="bg-white border-t border-gray-200 relative p-0 m-0">
+      <ul className="flex justify-around items-center py-0 m-0">
         {items.map((item) => (
           <NavItem
             key={item.label}
@@ -35,15 +35,23 @@ const NavItem = ({ label, icon, active, onClick }) => {
   return (
     <li
       onClick={onClick}
-      className="flex flex-col items-center text-xs cursor-pointer"
+      className="relative flex flex-col items-center text-xs cursor-pointer flex-1 p-3"
+      // p-3 cria espaçamento interno (em todos os lados)
     >
-      <div className={`mb-1 w-full ${active ? 'border-t-2 border-black' : 'border-t-2 border-transparent'}`} />
+      {/* Barra preta fixa no topo do item */}
+      {active && (
+        <div className="absolute top-0 left-0 w-full h-1 bg-black rounded-t-full" />
+      )}
+
       <div className={`${active ? 'text-black' : 'text-gray-500'}`}>
         {icon}
       </div>
-      <span className={`mt-1 ${active ? 'text-black font-medium' : 'text-gray-500'}`}>{label}</span>
+      <span className={`${active ? 'text-black font-bold' : 'text-gray-500'} mt-1`}>
+        {label}
+      </span>
     </li>
   );
 };
+
 
 export default NavBar;
