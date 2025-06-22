@@ -58,5 +58,5 @@ Para executar este projeto em sua máquina local, siga os passos abaixo:
 
 ## 📸 Screenshot da Aplicação Finalizada
 
-![Screenshot da Aplicação Finalizada](assets/screenhot.png)
+![Screenshot da Aplicação Finalizada](src/assets/screenshot.png)
 
