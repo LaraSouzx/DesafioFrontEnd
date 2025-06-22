@@ -9,7 +9,7 @@ import Balance from './balance';
 function HeaderBase() {
   return (
    
-    <div className='bg-black h-[40%] w-full rounded-3xl relative overflow-hidden'>
+    <div className='bg-gradient-to-b from-[#644BBF] to-[#846CD9]  h-[35%] w-full rounded-3xl relative overflow-hidden'>
       <img
           src={logo}
           alt='Logo'
@@ -17,7 +17,7 @@ function HeaderBase() {
       />
 
      
-      <div className="absolute top-4 right-4 flex items-center space-x-2">
+      <div className="absolute top-7 right-4 flex items-center space-x-2">
         <NotificacaoIcon />
         <PerfilIcon />
       </div>

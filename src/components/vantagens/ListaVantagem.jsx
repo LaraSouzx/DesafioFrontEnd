@@ -17,7 +17,7 @@ const ListaVantagens = () => {
         
         <div 
           key={vantagem.id} 
-          className="flex items-center justify-between p-3 rounded-xl cursor-pointer hover:bg-gray-100 transition-transform duration-200 hover:scale-[1.03]"
+          className="flex items-center justify-between p-3 rounded-xl cursor-pointer hover:bg-[#F2F2F2] transition-transform duration-200 hover:scale-[1.03]  hover:ring-4 hover:ring-slate-200 hover:ring-opacity-75 "
         >
           <div className="flex items-center space-x-4">
             {vantagem.icone}
@@ -33,7 +33,7 @@ const ListaVantagens = () => {
                 {vantagem.acao.texto}
               </button>
             ) : (
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5 text-gray-400">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5 text-black">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
               </svg>
             )}

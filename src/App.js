@@ -7,7 +7,7 @@ import NavBar from './components/navegacao/NavBar';
 function App() {
   return (
      <main className='bg-slate-500 min-h-screen flex items-center justify-center p-4'>
-        <div className='w-full max-w-sm aspect-[9/20] bg-white rounded-3xl shadow-2x flex flex-col justify-start'>
+        <div className='w-full max-w-sm aspect-[9/18] bg-white rounded-3xl shadow-2x flex flex-col justify-start'>
           <HeaderBase/>
 
       

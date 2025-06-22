@@ -40,7 +40,7 @@ const NavItem = ({ label, icon, active, onClick }) => {
     >
       {/* Barra preta fixa no topo do item */}
       {active && (
-        <div className="absolute top-0 left-0 w-full h-1 bg-black rounded-t-full" />
+        <div className="absolute top-0 left-0 w-full h-1 bg-[#644BBF] rounded-t-full" />
       )}
 
       <div className={`${active ? 'text-black' : 'text-gray-500'}`}>
