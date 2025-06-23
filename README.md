@@ -10,7 +10,7 @@ A interface original (em preto e branco) foi interpretada e redesenhada com foco
 
 A paleta de cores foi definida para criar um ambiente visual agradável e coeso.
 
-* **Roxo Vibrante (`#7B4BBF`):** Usado para elementos de destaque e como a cor principal do degradê no cabeçalho, transmitindo energia e modernidade.
+* **Roxo escuro (`#3C096C`):** Usado para elementos de destaque e como a cor principal do degradê no cabeçalho, transmitindo energia e modernidade.
 * **Lilás Intermediário (`#9B79E1`):** Uma transição suave no degradê do cabeçalho, mantendo a harmonia.
 * **Lilás Claro / Fundo (`#D4C7F5`):** A cor de fundo principal da aplicação, escolhida para ser leve e visualmente calma, permitindo que o conteúdo se destaque. Esta cor se mescla perfeitamente com a base do cabeçalho, criando uma sensação de continuidade.
 * **Branco (`#FFFFFF`):** Utilizado para os cartões e superfícies que exigem clareza e destaque para o conteúdo, como a área das ações rápidas e a lista de vantagens.

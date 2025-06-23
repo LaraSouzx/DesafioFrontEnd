@@ -20,7 +20,7 @@ const NotificacaoIcon = ({className}) =>{
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-5 h-5" // Tamanho do ícone
+                className="w-5 h-5"
             >
                 <path
                 strokeLinecap="round"
