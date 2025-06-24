@@ -1,6 +1,6 @@
 # [Olympus Mobile App Redesign]
 
-Este projeto é uma recriação da interface de um aplicativo mobile, utilizando React para a estrutura do front-end e Tailwind CSS para a estilização, conforme proposto em um desafio de processo seletivo. O objetivo foi demonstrar domínio técnico em ambas as tecnologias, além de sensibilidade em UI/UX na definição de uma identidade visual e paleta de cores.
+Este projeto é uma recriação da interface de um aplicativo mobile, utilizando React para a estrutura do front-end e Tailwind CSS para a estilização. O objetivo foi demonstrar domínio técnico em ambas as tecnologias, além de sensibilidade em UI/UX na definição de uma identidade visual e paleta de cores.
 
 ## ✨ Visão Geral
 
